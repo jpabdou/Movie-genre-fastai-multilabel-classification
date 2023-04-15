@@ -6,3 +6,6 @@ Originally, I had identified posters by their first genre, but this led to an ov
 
 Reattempting this project, I trained ResNet-50 model on 10 cycles with following results:
 <img src="/Screenshot 2023-04-10 at 23-12-10 movie poster project multilabel - Jupyter Notebook.png" alt="fastai training and validation losses for 10 cycles"/>
+
+As a result, the multilabel classifier shows high accuracy in determining the genre's of movie posters with an inaccuracy of one genre out of 2-4.
+<img src="/multilabel classifier.png" alt="fastai classifier results"/>
